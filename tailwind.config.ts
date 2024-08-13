@@ -40,8 +40,6 @@ const config: Config = {
       animation: ['before', 'after'],
     },
   },
-  plugins: [
-    require('@tailwindcss/custom-forms'),
-  ],
+  plugins: [],
 };
 export default config;
