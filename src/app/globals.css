@@ -1,11 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://rsms.me/inter/inter.css");
+@import '/fonts/Terminal.ttf';
+@import '/fonts/Arabic-Medium.ttf';
+
+@font-face {
+  font-family: "Arabic Medium";
+  src: url("/fonts/Arabic-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Terminal";
+  src: url("/fonts/Terminal.ttf");
+}
+
+::selection {
+  background-color: #D6B975;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+html {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,16 +42,121 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+	background-color: #030712;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(315deg, #f39405 0%, #f9c200 74%);
+  border-radius: 1em;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.animated {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+.terminal-text::after {
+    animation: blink-frame 1s step-end infinite;
+}
+
+@keyframes blink-frame {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: white;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
+
+.terminal {
+  font-family: 'Terminal', sans-serif;
+}
+
+.arabic-medium {
+  font-family: 'Arabic Medium', sans-serif;
+}
+
+.gradient {
+  background-image: linear-gradient(-225deg, #2e1107 0%, #98652c 100%)
+}
+
+button,
+.gradient2 {
+  background-color: #f39f86;
+  background-image: linear-gradient(315deg, #f39405 0%, #f9c200 74%);
+}
+
+.browser-mockup {
+  border-top: 2em solid #171717;
+  position: relative;
+  height: 60vh;
+  background-color: #222;
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+.browser-mockup>* {
+  display: block;
 }

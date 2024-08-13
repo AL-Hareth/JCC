@@ -13,8 +13,35 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        blinker: {
+          "0%": {
+            "border-color": "transparent"
+          },
+          "50%": {
+            "border-color": "white"
+          },
+          "100%": {
+            "border-color": "transparent"
+          }
+        }
+      },
+      animations: {
+        blinker: "blinker 1s steps(5, end) infinite",
+      },
+    },
+    fonts: {
+      terminal: ['"Terminal"', "monospace"],
+      arabic: ['"Arabic Medium"', "monospace"],
     },
   },
-  plugins: [],
+  variants: {
+    extend: {
+      animation: ['before', 'after'],
+    },
+  },
+  plugins: [
+    require('@tailwindcss/custom-forms'),
+  ],
 };
 export default config;
