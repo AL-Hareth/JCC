@@ -1,8 +1,9 @@
 import Image from "next/image";
+import ModelViewer from "./Test3DModel";
 
 export default function FAQ() {
   return (
-    <section dir="rtl" className="py-12 bg-gradient-to-t from-gray-950 to-yellow-800">
+    <section dir="rtl" className="py-12 bg-gradient-to-t from-gray-950 to-[#c47a0a]">
       <div className="container max-w-5xl mx-auto m-8">
         <h2
           className="w-full my-2 text-5xl  leading-tight text-center text-white arabic-medium"
@@ -11,7 +12,7 @@ export default function FAQ() {
         </h2>
         <div className="w-full mb-4">
           <div
-            className="h-1 mx-auto bg-gradient-to-r from-yellow-700 to-amber-500 w-64 opacity-75 my-0 py-0 rounded-t"
+            className="h-1 mx-auto bg-gradient-to-r via-amber-950 from-brown-900 to-black w-64 opacity-75 my-0 py-0 rounded-t"
           ></div>
         </div>
 

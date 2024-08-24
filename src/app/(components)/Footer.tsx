@@ -1,5 +1,11 @@
-import Image from "next/image";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -17,7 +23,7 @@ export default function Footer() {
           </div>
 
           <div className="flex-1">
-            <p className="uppercase font-extrabold text-gray-500 md:mb-6">
+            <p className="uppercase font-extrabold text-gray-300 md:mb-6">
               Company
             </p>
             <ul className="list-reset mb-6">
@@ -63,60 +69,47 @@ export default function Footer() {
             </div>
             */}
           <div className="flex-1">
-            <p className="uppercase font-extrabold text-gray-500 md:mb-6">Social</p>
+            <p className="uppercase font-extrabold text-gray-300 md:mb-6">Social</p>
             <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   target="_blank"
                   href="https://www.instagram.com/jo_cyber_club"
+                  className="mr-5 font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
+                ><InstagramIcon /></a
+                >
+                <a
+                  target="_blank"
+                  href="https://t.me/JordanCyberClub"
                   className="font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
-                >Instagram</a
+                ><TelegramIcon /></a
                 >
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/company/jordan-cyber-club/"
+                  className="mr-5 font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
+                ><LinkedInIcon /></a>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/@jordan_cyber_club"
                   className="font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
-                >Linkedin</a
+                ><YouTubeIcon /></a
                 >
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   target="_blank"
                   href="https://chat.whatsapp.com/Iyd4K2JPDtdGVOLITZCsJk"
-                  className="font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
-                >Whatsapp</a
+                  className="mr-5 font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
+                ><WhatsAppIcon /></a
                 >
-              </li>
-            </ul>
-          </div>
-          <div className="flex-1">
-            <p className="uppercase font-extrabold text-gray-500 md:mb-6 md:pt-7">
-            </p>
-            <ul className="list-reset mb-6">
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  target="_blank"
-                  href="https://t.me/JordanCyberClub"
-                  className="font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
-                >Telegram</a
-                >
-              </li>
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  target="_blank"
-                  href="https://www.youtube.com/@jordan_cyber_club"
-                  className="font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
-                >Youtube</a
-                >
-              </li>
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   target="_blank"
                   href="https://www.facebook.com/profile.php?id=61561579136900&mibextid=ZbWKwL"
                   className="font-light no-underline hover:underline text-gray-300 hover:text-yellow-500"
-                >Facebook</a
+                ><FacebookIcon /></a
                 >
               </li>
             </ul>

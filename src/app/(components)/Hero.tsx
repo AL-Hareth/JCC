@@ -1,14 +1,15 @@
 import AnimatedLink from "./AnimatedLink";
+import "./hero.css";
 
 export default function Hero() {
   return (
-    <div className="w-full h-screen bg-gradient-to-b from-gray-950 to-yellow-800">
+    <div className="w-full h-screen bg-gradient-to-b from-gray-950 to-[#c47a0a]">
       <div className="container mx-auto">
         <div className="text-center px-3 lg:px-0">
           <div className="grid grid-cols-1 place-items-center">
             <div className="w-fit">
               <h1
-                className="animated terminal my-4 text-2xl md:text-3xl lg:text-5xl font-black py-3"
+                className="text-white animated terminal my-4 text-2xl md:text-3xl lg:text-5xl font-black py-3"
               >
                 Jordan Cyber Club
               </h1>
@@ -19,9 +20,9 @@ export default function Hero() {
           </div>
 
           <button
-            className="arabic-medium mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
+            className=" mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
           >
-            <AnimatedLink color="bg-black" href="about">تعرف علينا</AnimatedLink>
+            <AnimatedLink color="bg-black" href="about">About Us</AnimatedLink>
           </button>
           {/*
           <a
@@ -36,7 +37,25 @@ export default function Hero() {
           <div
             className="browser-mockup flex flex-1 m-6 md:px-0 md:m-12 bg-white w-1/2 rounded shadow-xl"
           >
-            <span className="terminal relative text-gray-300 pt-4 pl-2 after:content after:border after:border-white after:w-3 after:absolute after:top-9 after:right-[-12px] terminal-text">{">"} Black Mind, White Hands</span>
+            <span className="relative text-gray-300 pt-4 pl-2">
+              <div className='firstLine'>
+                    <div className='preDec'>
+                    </div>
+                    <div className='f_text'>
+                        <span className='userName'>jcc</span>
+                        <span className='hostName'>parrot</span>
+                    </div>
+                    <div className='postDec'>
+                    </div>
+                    <div className='directory'>/home/jcc/Documents</div>
+                    <div className='finPostDec'>
+                    </div>
+                </div>
+                <div className='secondLine'>
+                    <div className='scDec'></div>
+                    <div className='command'>Black Minds, White Hands</div>
+                </div>
+            </span>
           </div>
         </div>
       </div>

@@ -49,7 +49,7 @@ export default function Navbar() {
   return (
     <nav id="header" className="w-full z-30 top-0 text-white py-1 lg:py-6">
       <div
-        className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-2 lg:py-6"
+        className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-2 lg:pb-6"
       >
         <div className="pl-4 flex items-center">
           <Link
@@ -108,7 +108,7 @@ export default function Navbar() {
             id="navAction"
             className="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded mt-4 lg:mt-0 py-4 px-8 shadow"
           >
-           <AnimatedLink color="bg-black" href="/contact-us" classNames="text-black">تواصل معنا</AnimatedLink>
+           <AnimatedLink color="bg-black" href="/contact-us" classNames="text-black">Contact Us</AnimatedLink>
           </button>
         </div>
       </div>

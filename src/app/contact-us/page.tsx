@@ -74,14 +74,14 @@ function LinkedInCard() {
 
 function WhatsAppCard() {
   return (
-    <div className="text-gray-800 w-[300px] h-[200px] text-center bg-[#F49D04] p-[1.5em] rounded-[5px] relative overflow-hidden [transition:.3s_cubic-bezier(.6,.4,0,1),transform_.15s_ease] flex flex-col justify-center items-center gap-[1em] group hover:bg-[#e7ffe5]">
+    <div className="text-gray-800 w-[300px] h-[200px] text-center bg-[#F49D04] p-[1.5em] rounded-[5px] relative overflow-hidden [transition:.3s_cubic-bezier(.6,.4,0,1),transform_.15s_ease] flex flex-col justify-center items-center gap-[1em] group hover:bg-[#d5ffd2]">
       <div className="icon [transition:.3s_cubic-bezier(.6,.4,0,1)] group-hover:opacity-0">
         <WhatsAppIcon className="w-[50px] h-[50px]" />
       </div>
       <strong className="group-hover:opacity-0 [transition:.3s_cubic-bezier(.6,.4,0,1)] block text-3xl tracking-[-.035em]">
         Whatsapp Group
       </strong>
-      <a className="text-[#00e509] group-hover:top-[0] group-hover:text-[1.2em] absolute w-full h-full flex justify-center items-center rounded-[5px] font-bold top-full [transition:all_.3s_cubic-bezier(.6,.4,0,1)]"
+      <a className="text-[#03bf09] group-hover:top-[0] group-hover:text-[1.2em] absolute w-full h-full flex justify-center items-center rounded-[5px] font-bold top-full [transition:all_.3s_cubic-bezier(.6,.4,0,1)]"
         href="https://chat.whatsapp.com/Iyd4K2JPDtdGVOLITZCsJk"
         target="_blank"
       >Join Us</a>
@@ -91,7 +91,7 @@ function WhatsAppCard() {
 
 function YoutubeCard() {
   return (
-    <div className="text-gray-800 w-[300px] h-[200px] text-center bg-[#F49D04] p-[1.5em] rounded-[5px] relative overflow-hidden [transition:.3s_cubic-bezier(.6,.4,0,1),transform_.15s_ease] flex flex-col justify-center items-center gap-[1em] group hover:bg-[#ffc6c6]">
+    <div className="text-gray-800 w-[300px] h-[200px] text-center bg-[#F49D04] p-[1.5em] rounded-[5px] relative overflow-hidden [transition:.3s_cubic-bezier(.6,.4,0,1),transform_.15s_ease] flex flex-col justify-center items-center gap-[1em] group hover:bg-[#FDB2B2]">
       <div className="icon [transition:.3s_cubic-bezier(.6,.4,0,1)] group-hover:opacity-0">
         <YouTubeIcon className="w-[50px] h-[50px]" />
       </div>
@@ -115,7 +115,7 @@ function TelegramCard() {
       <strong className="group-hover:opacity-0 [transition:.3s_cubic-bezier(.6,.4,0,1)] block text-3xl tracking-[-.035em]">
         Telegram 
       </strong>
-      <a className="text-[#00ace5] group-hover:top-[0] group-hover:text-[1.2em] absolute w-full h-full flex justify-center items-center rounded-[5px] font-bold top-full [transition:all_.3s_cubic-bezier(.6,.4,0,1)]"
+      <a className="text-[#028dbb] group-hover:top-[0] group-hover:text-[1.2em] absolute w-full h-full flex justify-center items-center rounded-[5px] font-bold top-full [transition:all_.3s_cubic-bezier(.6,.4,0,1)]"
         href="https://t.me/JordanCyberClub"
         target="_blank"
       >Subscribe</a>
