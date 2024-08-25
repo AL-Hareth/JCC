@@ -28,7 +28,7 @@
 
 .preDec:after {
 	content: ']-[';
-	color: white;
+	color: red;
 	font-weight: normal;
 }
 
