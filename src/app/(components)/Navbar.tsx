@@ -85,6 +85,9 @@ export default function Navbar() {
         >
           <ul className="arabic-medium list-reset lg:flex justify-end flex-1 items-center">
             <li className="mr-3">
+              <AnimatedLink href="/news" color="bg-yellow-600" classNames="text-white px-4 py-2">الأخبار</AnimatedLink>
+            </li>
+            <li className="mr-3">
               <AnimatedLink href="/" color="bg-yellow-600" classNames="text-white px-4 py-2">الرئيسية</AnimatedLink>
             </li>
             {/*
