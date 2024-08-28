@@ -18,7 +18,10 @@ export default function Footer() {
               href="/"
             >
               <Image src="/favicon.ico" alt="logo" width={100} height={100} />
-              <span className="ml-2">JCC</span>
+              <span className="ml-2">
+                Jordan<br />
+                <span className="text-2xl">Cyber Club</span>
+              </span>
             </Link>
           </div>
 
