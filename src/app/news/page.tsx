@@ -15,7 +15,7 @@ interface TArticle {
 }
 
 // revalidate every 4 hours
-export const revalidate = 14400000; // 1000 * 60 * 60 * 4
+export const revalidate = 0; // 1000 * 60 * 60 * 4
 
 export default async function News() {
 
