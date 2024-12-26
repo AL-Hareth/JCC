@@ -32,6 +32,13 @@ function LeadersImages() {
     },
     {
       quote:
+        "As a senior year student at the University of Jordan. Additionally, my experience as a junior penetration tester has provided me with valuable hands-on experience, allowing me to apply my knowledge to real-world security challenges.",
+      name: "Yahia",
+      designation: "Technical Team",
+      src: "/images/leaders/yahia.jpg",
+    },
+    {
+      quote:
         "A distinguished graduate with a diploma in Cybersecurity from Middle East University, recognized globally for securing third place in the prestigious Copernicus competition.",
       name: "Yousef Al-Rawahneh",
       designation: "Schools Team",
