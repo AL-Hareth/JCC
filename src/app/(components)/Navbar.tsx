@@ -113,7 +113,7 @@ export default function Navbar() {
                 onClick={toggleModal}
                 style={{ fontSize: '16px' }}
               />
-              <div className="relative bg-gray-900 w-full h-full">
+              <div className="relative bg-zinc-900 w-full h-full">
                 <div className="flex flex-col gap-8 items-center justify-center h-full">
                   {navLinks.map((link, index) => (
                     <Link onClick={toggleModal} href={link.url} key={index} className="text-offwhite font-light text-2xl cursor-pointer">{link.title}</Link>

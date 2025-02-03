@@ -13,7 +13,7 @@ function LinkSpan({ children, href, color }: { children: React.ReactNode, href: 
 
 export default function Footer() {
   return (
-    <div className="bg-zinc-950 py-3 text-center text-xl xl:text-2xl flex justify-center items-center">
+    <div className="bg-zinc-950 py-3 text-center text-md sm:text-xl xl:text-2xl flex justify-center items-center">
       <span className="mx-2 font-medium">All rights reserved</span>|
       <LinkSpan href="https://www.instagram.com/jo_cyber_club/" color="hover:text-pink-700">
         <FaInstagram />
