@@ -17,8 +17,8 @@ export default function Navbar() {
     { icon: null },
   ];
 
-  const bgColor = 'bg-slate-800';
-  const modalColor = 'bg-slate-800';
+  const bgColor = 'bg-zinc-950';
+  const modalColor = 'bg-zinc-950';
 
   const [isMobile, setIsMobile] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -49,7 +49,7 @@ export default function Navbar() {
     <>
       {!isMobile ? (
         // Laptop Navbar Code Here
-        <nav className={`${bgColor}`}>
+        <nav className={`${bgColor} shadow-[0px_5px_16px_1px_#00000024]`}>
           <div className="flex justify-between mx-auto items-center py-2 px-24">
             <div className="text-white font-bold text-xl">
               <Link href="/">
@@ -106,7 +106,7 @@ export default function Navbar() {
             </div>
           </div>
           {showModal && (
-            <div className="fixed inset-0 flex justify-center items-center bg-slate-800 z-50">
+            <div className="fixed inset-0 flex justify-center items-center bg-zinc-950 z-50">
               <div className={`absolute inset-0 ${modalColor}`} />
               <FaTimes
                 className="absolute top-6 right-4 z-50 text-white cursor-pointer"
@@ -116,9 +116,9 @@ export default function Navbar() {
               <div className="relative bg-gray-900 w-full h-full">
                 <div className="flex flex-col gap-8 items-center justify-center h-full">
                   {navLinks.map((link, index) => (
-                    <span key={index} className="text-white font-light text-2xl cursor-pointer">{link.title}</span>
+                    <Link onClick={toggleModal} href={link.url} key={index} className="text-offwhite font-light text-2xl cursor-pointer">{link.title}</Link>
                   ))}
-                  <Link href="/podcast" className="relative bg-yellow-600 font-bold px-4 py-2 rounded-lg">
+                  <Link onClick={toggleModal} href="/podcast" className="relative bg-yellow-600 font-bold px-4 py-2 rounded-lg">
                     <span className="absolute flex h-3 w-3 top-[-4px] right-[-5px]">
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
                       <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>

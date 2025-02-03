@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[2400px] sm:h-[2600px] py-64 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[2100px] sm:h-[2600px] py-64 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -104,12 +104,12 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+      <h1 className="text-4xl md:text-7xl font-bold dark:text-white">
         Jordan Cyber Club
       </h1>
       <p className="max-w-2xl text-base md:text-2xl mt-8 dark:text-neutral-600">
-        <span className="bg-black text-white">Black Minds,</span>{' '}
-        <span className="bg-white text-black">White Hands!</span>
+        <span className="text-xl font-semibold px-1 bg-black text-yellow-500">Black Minds,</span>{' '}
+        <span className="text-xl font-semibold px-1 bg-white text-black">White Hands!</span>
       </p>
     </div>
   );
@@ -135,7 +135,7 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product h-96 w-[30rem] relative flex-shrink-0"
+      className="group/product h-72 w-[25rem] sm:h-96 sm:w-[30rem] relative flex-shrink-0"
     >
       <Link
         href={product.link}

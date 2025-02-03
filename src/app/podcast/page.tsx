@@ -10,7 +10,7 @@ export default async function PodcastPage() {
   });
 
   return (
-    <div className="min-h-[81vh] py-10">
+    <div className="flex-1 py-10">
       <h1 className="text-center text-5xl font-bold mb-6">Podcast</h1>
       <div className="w-3/4 mx-auto grid justify-items-center grid-cols-1 lg:grid-cols-2 gap-4">
         {videosData.map((video) => (

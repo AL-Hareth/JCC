@@ -18,6 +18,13 @@ function LeadersImages() {
     },
     {
       quote:
+        "A Veteran leader who loves learning and developing in the field of cybersecurity and various sectors, interested in developing social team skills and suppressing opportunities to highlight the team in the best possible way.",
+      name: "Rand Wraikat",
+      designation: "Events Team",
+      src: "/images/leaders/rand.png",
+    },
+    {
+      quote:
         "A versatile professional, known for her impactful work as a researcher, advertiser, and speaker, making significant contributions across various platforms and events.",
       name: "Tabarak Al-Qaisi",
       designation: "Content Team",
@@ -33,7 +40,7 @@ function LeadersImages() {
     {
       quote:
         "As a senior year student at the University of Jordan. Additionally, my experience as a junior penetration tester has provided me with valuable hands-on experience, allowing me to apply my knowledge to real-world security challenges.",
-      name: "Yahia",
+      name: "Yahia Ahmad",
       designation: "Technical Team",
       src: "/images/leaders/yahia.jpg",
     },
@@ -59,6 +66,6 @@ function LeadersImages() {
 export default function Leaders() {
   return <div className="mt-5">
     <h1 className="w-2/3 mx-auto text-center text-5xl font-sans">Our Leaders</h1>
-      <LeadersImages />
+    <LeadersImages />
   </div>;
 }

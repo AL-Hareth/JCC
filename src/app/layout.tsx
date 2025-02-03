@@ -16,6 +16,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const titillium = localFont({
+  src: "../../public/fonts/Titillium/TitilliumWeb-Regular.ttf",
+  variable: "--font-titillium",
+  weight: "100 400 900",
+})
+
 export const metadata: Metadata = {
   title: "Jordan Cyber Club",
   description: "Jordan Cyber Club, The First Cyber Club in Jordan",
@@ -29,11 +35,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-950 text-gray-300`}
+        className={`${titillium.className} antialiased bg-zinc-900 text-gray-300 min-h-screen`}
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="min-h-screen w-full flex flex-col">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
