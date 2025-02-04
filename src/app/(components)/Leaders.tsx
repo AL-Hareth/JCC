@@ -27,7 +27,7 @@ function LeadersImages() {
       quote:
         "A versatile professional, known for her impactful work as a researcher, advertiser, and speaker, making significant contributions across various platforms and events.",
       name: "Tabarak Al-Qaisi",
-      designation: "Content Team",
+      designation: "Social Media Team",
       src: "/images/leaders/tabarak.jpg",
     },
     {
