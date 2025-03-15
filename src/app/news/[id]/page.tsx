@@ -1,5 +1,5 @@
 import { baseUrl } from "@/lib/constants";
-import MarkdownNews from "./(components)/MakrdownArticle";
+import MarkdownNews from "./(components)/MarkdownNews";
 
 export default async function NewsTopicPage({ params }: { params: { id: string } }) {
   const id = params.id;

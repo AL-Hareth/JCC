@@ -9,6 +9,8 @@ export type Blog = {
   tags: string[];
 };
 
+export const revalidate = 0;
+
 export default async function Articles() {
   const data = await fetch(`${baseUrl}/blogs`);
   const blogs: Blog[] = await data.json();

@@ -1,5 +1,5 @@
 import { baseUrl } from "@/lib/constants";
-import MarkdownArticle from "./(components)/MakrdownArticle";
+import MarkdownArticle from "./(components)/MarkdownArticle";
 
 export default async function ArticlePage({ params }: { params: { id: string } }) {
   const id = params.id;

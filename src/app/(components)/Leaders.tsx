@@ -53,9 +53,16 @@ function LeadersImages() {
     },
     {
       quote:
+        "Machine Learning for threat detection, CTF Player &  Incident resuonse specialist",
+      name: "Obada",
+      designation: "Blue Team Specialist",
+      src: "/images/leaders/obada.jpeg",
+    },
+    {
+      quote:
         "No Quote Yet",
       name: "Karam Al-Omari",
-      designation: "COO & Leader Events",
+      designation: "COO",
       src: "/images/leaders/karam.jpg",
     },
   ];
