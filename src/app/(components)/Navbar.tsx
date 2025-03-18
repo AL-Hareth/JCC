@@ -8,7 +8,7 @@ export default function Navbar() {
   const navLinks = [
     { title: 'Home', url: '/' },
     { title: 'Articles', url: '/articles' },
-    { title: 'News', url: '/news' }
+    //{ title: 'News', url: '/news' }
   ];
 
   const iconList = [
