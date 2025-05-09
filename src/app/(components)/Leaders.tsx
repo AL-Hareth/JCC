@@ -39,13 +39,6 @@ function LeadersImages() {
     },
     {
       quote:
-        "As a senior year student at the University of Jordan. Additionally, my experience as a junior penetration tester has provided me with valuable hands-on experience, allowing me to apply my knowledge to real-world security challenges.",
-      name: "Yahia Ahmad",
-      designation: "Technical Team",
-      src: "/images/leaders/yahia.jpg",
-    },
-    {
-      quote:
         "A distinguished graduate with a diploma in Cybersecurity from Middle East University, recognized globally for securing third place in the prestigious Copernicus competition.",
       name: "Yousef Al-Rawahneh",
       designation: "Schools Team",
@@ -60,10 +53,24 @@ function LeadersImages() {
     },
     {
       quote:
-        "No Quote Yet",
+        "Co-Founder and COO of Jordan Cyber Club. With expertise in cybersecurity, he leads the club with a focus on innovation, security, and operational efficiency, fostering a collaborative environment that drives success in the tech field.",
       name: "Karam Al-Omari",
       designation: "COO",
       src: "/images/leaders/karam.jpg",
+    },
+    {
+      quote:
+        "Certified Penetration Tester with expertise in cybersecurity, full-stack and desktop development, networking, and protocol design. Passionate about securing systems, and building robust applications.",
+      name: "Wesam Mahasneh",
+      designation: "COO",
+      src: "/images/leaders/wesam.png",
+    },
+    {
+      quote:
+        "A Cybersecurity graduate from Mutah University. I have hands-on experience in incident response and network traffic analysis, and I’m passionate about developing team skills and driving technical excellence.",
+      name: "Sally Mousa",
+      designation: "COO",
+      src: "/images/leaders/sally.png",
     },
   ];
 
