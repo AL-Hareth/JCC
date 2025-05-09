@@ -13,7 +13,7 @@ function LeadersImages() {
       quote:
         "A university student with a strong command of public speaking and certified management expertise, continuously enhancing her academic and professional skills.",
       name: "Huda Hazem",
-      designation: "HR Manager",
+      designation: "Public Relations",
       src: "/images/leaders/huda.jpg",
     },
     {
@@ -47,29 +47,29 @@ function LeadersImages() {
     {
       quote:
         "Machine Learning for threat detection, CTF Player &  Incident resuonse specialist",
-      name: "Obada",
-      designation: "Blue Team Specialist",
+      name: "Obada Jaber",
+      designation: "CTF",
       src: "/images/leaders/obada.jpeg",
     },
     {
       quote:
         "Co-Founder and COO of Jordan Cyber Club. With expertise in cybersecurity, he leads the club with a focus on innovation, security, and operational efficiency, fostering a collaborative environment that drives success in the tech field.",
       name: "Karam Al-Omari",
-      designation: "COO",
+      designation: "CO-Founder",
       src: "/images/leaders/karam.jpg",
     },
     {
       quote:
         "Certified Penetration Tester with expertise in cybersecurity, full-stack and desktop development, networking, and protocol design. Passionate about securing systems, and building robust applications.",
       name: "Wesam Mahasneh",
-      designation: "COO",
+      designation: "CTO",
       src: "/images/leaders/wesam.png",
     },
     {
       quote:
         "A Cybersecurity graduate from Mutah University. I have hands-on experience in incident response and network traffic analysis, and I’m passionate about developing team skills and driving technical excellence.",
       name: "Sally Mousa",
-      designation: "COO",
+      designation: "Technical Leader",
       src: "/images/leaders/sally.png",
     },
   ];
