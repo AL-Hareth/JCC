@@ -72,6 +72,13 @@ function LeadersImages() {
       designation: "Technical Leader",
       src: "/images/leaders/sally.png",
     },
+    {
+      quote:
+        "A recent graduate of Zarqa University (2023) with a strong passion for programming and technology. With a keen interest in continuous learning, she has actively participated in numerous courses across diverse fields to expand her knowledge and skills.",
+      name: "Lujain Saleh",
+      designation: "HR",
+      src: "/images/leaders/lujain.jpeg",
+    },
   ];
 
   return <AnimatedTestimonials testimonials={testimonials} />;
