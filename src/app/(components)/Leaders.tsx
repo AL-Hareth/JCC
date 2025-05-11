@@ -42,7 +42,7 @@ function LeadersImages() {
         "A distinguished graduate with a diploma in Cybersecurity from Middle East University, recognized globally for securing third place in the prestigious Copernicus competition.",
       name: "Yousef Al-Rawahneh",
       designation: "Schools Team",
-      src: "/images/leaders/yousef.jpg",
+      src: "/images/leaders/yousef.jpeg",
     },
     {
       quote:
